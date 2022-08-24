@@ -1,5 +1,9 @@
-.header, .container-hero {
+.header, .container-hero, .footer {
     background-color: #1f2937;
+}
+
+.header {
+
 }
 
 .btn-sign-up {
@@ -9,3 +13,4 @@
 .quote {
     background-color: #e5e7eb;
 }
+

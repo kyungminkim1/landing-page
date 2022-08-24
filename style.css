@@ -3,7 +3,7 @@ body {
 
     display: flex;
     flex-direction: column;
-    
+    margin: 0;
 }
 
 .header, .container-hero, .footer {
@@ -47,9 +47,11 @@ li {
     background-color: #e5e7eb;
 }
 
-/* Won't work for some reason
-.container-hero, .container-info, .quote, .container-sign-up {
-    max-height: 500px;
-    flex: auto;
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 24px;
+    color: #f9faf8;
 }
-*/

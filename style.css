@@ -40,7 +40,21 @@ li {
 }
 
 .btn-sign-up {
+    color: #f9faf8;
     background-color: #3882f6;
+    border-radius: 8px;
+    padding: 4px 24px;
+
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.container-hero-text .btn-sign-up {
+    border: 2px solid #1f2937;
+}
+
+.container-sign-up .btn-sign-up {
+    border: 2px solid white;
 }
 
 .quote {

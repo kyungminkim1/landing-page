@@ -43,7 +43,8 @@ li {
     color: #f9faf8;
     background-color: #3882f6;
     border-radius: 8px;
-    padding: 4px 24px;
+    padding: 8px 32px;
+    margin: 8px 0;
 
     font-size: 16px;
     font-weight: 700;
@@ -74,4 +75,24 @@ li {
     font-size: 48px;
     font-weight: 1000;
     color: #f9faf8;
+}
+
+.container-hero {
+    display: flex;
+    padding: 100px 200px;
+
+}
+
+.container-hero-text, .container-logo {
+    flex: 1;
+    padding: 50px;
+}
+
+.container-logo {
+    background-color: gray;
+    color: #f9faf8;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

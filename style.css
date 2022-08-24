@@ -1,9 +1,20 @@
 body {
     font-family: "Roboto";
+
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .header, .container-hero, .footer {
     background-color: #1f2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
 }
 
 .header-logo {
@@ -16,6 +27,18 @@ body {
     color: #e5e7eb;
 }
 
+.header-links {
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    margin: 16px;
+}
+
 .btn-sign-up {
     background-color: #3882f6;
 }
@@ -24,3 +47,9 @@ body {
     background-color: #e5e7eb;
 }
 
+/* Won't work for some reason
+.container-hero, .container-info, .quote, .container-sign-up {
+    max-height: 500px;
+    flex: auto;
+}
+*/

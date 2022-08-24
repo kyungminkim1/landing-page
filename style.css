@@ -11,6 +11,11 @@ body {
     color: #f9faf8;
 }
 
+.header-links, .secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
 .btn-sign-up {
     background-color: #3882f6;
 }

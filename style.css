@@ -96,3 +96,44 @@ li {
     justify-content: center;
     align-items: center;
 }
+
+.info-title {
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1f2937;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 48px 0;
+
+}
+
+.container-info-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.info {
+    width: 160px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-image {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3882f6;
+    border-radius: 8px;
+}
+
+.container-info {
+    padding: 0 200px 100px;
+}

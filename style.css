@@ -153,9 +153,14 @@ li {
 }
 
 .container-sign-up {
-    
     background-color: #3882f6;
 
+    margin: 100px 150px;
+    padding: 50px 75px;
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: space-between;
 }
 
 .call-to-action {

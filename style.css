@@ -60,6 +60,9 @@ li {
 
 .quote {
     background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
 }
 
 .footer {
@@ -73,7 +76,7 @@ li {
 
 .main-text {
     font-size: 48px;
-    font-weight: 1000;
+    font-weight: 900;
     color: #f9faf8;
 }
 
@@ -99,7 +102,7 @@ li {
 
 .info-title {
     font-size: 36px;
-    font-weight: 1000;
+    font-weight: 900;
     color: #1f2937;
 
     display: flex;
@@ -136,4 +139,9 @@ li {
 
 .container-info {
     padding: 0 200px 100px;
+}
+
+.quote-author {
+    font-size: 24px;
+    font-weight: 700;
 }
